@@ -710,7 +710,8 @@ img.im_message_video_thumb,
 }
 
 .im_message_wrap {
-  padding: 5px 9px;
+  padding: 10px 10px;
+    margin: 0px;
     
 }
 .im_content_message_wrap {
