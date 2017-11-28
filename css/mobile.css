@@ -435,6 +435,7 @@ color: #00cf38;
 
 .im_message_body {
   padding: 12px;
+  margin-right: -16px;
   
 }
 
