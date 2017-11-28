@@ -1,0 +1,252 @@
+<!doctype html>
+
+<html lang="en" manifest="webogram.appcache" ng-csp="" xmlns:ng="http://angularjs.org" id="ng-app" style="display: none;">
+
+<head>
+
+  <!--[if lte IE 9]>
+
+  <meta HTTP-EQUIV="REFRESH" content="0; url=badbrowser.html">
+
+  <![endif]-->
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>tacochat</title>
+
+
+
+  <!-- build:css css/app.css -->
+
+
+
+  <link rel="stylesheet" href="css/app.css"/>
+    
+  <link rel="stylesheet" href="css/desktop.css"/>
+    
+  <link rel="stylesheet" href="css/mobile.css"/>  
+
+  <!-- endbuild -->
+
+
+
+  <link rel="manifest" href="manifest.webapp.json"/>
+
+
+
+  <!-- <link rel="stylesheet" href="css/font.css"/> -->
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=cyrillic,cyrillic-ext,latin,latin-ext" rel="stylesheet" type="text/css"> -->
+
+
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+
+
+  <link rel="apple-touch-icon" href="img/iphone_home120.png">
+
+  <link rel="apple-touch-icon" sizes="120x120" href="img/iphone_home120.png">
+
+  <link rel="apple-touch-startup-image" media="(device-width: 320px)" href="img/iphone_startup.png">
+
+
+
+  <meta name="apple-mobile-web-app-title" content="tacochat">
+
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="theme-color" content="#430043">
+
+  <meta name="google" content="notranslate">
+
+
+
+  <meta property="og:title" content="tacochat">
+
+  <meta property="og:url" content="https://zeusest.github.io/dreadogram/">
+
+  <meta property="og:image" content="https://web.telegram.org/img/logo_share.png">
+
+  <meta property="og:site_name" content="tacochat">
+
+  <meta property="description" content="tacochat">
+
+  <meta property="og:description" content="tacochat">
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="page_wrap" ng-view></div>
+
+
+
+  <div id="notify_sound"></div>
+
+
+
+  <!-- build:js js/app.js -->
+
+  <script type="text/javascript" src="js/lib/polyfill.js"></script>
+
+  <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+
+  <script type="text/javascript" src="js/lib/config.js"></script>
+
+  <script type="text/javascript" src="js/init.js"></script>
+
+  <script type="text/javascript" src="js/offline_manager.js"></script>
+
+
+
+  <script type="text/javascript" src="vendor/jquery.nanoscroller/nanoscroller.js"></script>
+
+  <script type="text/javascript" src="vendor/angular/angular.js"></script>
+
+  <script type="text/javascript" src="vendor/angular/angular-route.js"></script>
+
+  <script type="text/javascript" src="vendor/angular/angular-animate.js"></script>
+
+  <script type="text/javascript" src="vendor/angular/angular-sanitize.js"></script>
+
+  <script type="text/javascript" src="vendor/angular/angular-touch.js"></script>
+
+  <script type="text/javascript" src="vendor/ui-bootstrap/ui-bootstrap-custom-tpls-0.12.0.js"></script>
+
+  <script type="text/javascript" src="vendor/angular-media-player/angular-media-player.js"></script>
+
+
+
+  <script type="text/javascript" src="vendor/jsbn/jsbn_combined.js"></script>
+
+  <script type="text/javascript" src="vendor/cryptoJS/crypto.js"></script>
+
+  <script type="text/javascript" src="vendor/rusha/rusha.js"></script>
+
+  <script type="text/javascript" src="vendor/zlib/gunzip.min.js"></script>
+
+  <script type="text/javascript" src="vendor/closure/long.js"></script>
+
+  <script type="text/javascript" src="vendor/leemon_bigint/bigint.js"></script>
+
+  <script type="text/javascript" src="vendor/libwebpjs/libwebp-0.2.0.js"></script>
+
+  <script type="text/javascript" src="vendor/angularjs-toaster/toaster.js"></script>
+
+  <script type="text/javascript" src="vendor/clipboard/clipboard.js"></script>
+
+
+
+  <script type="text/javascript" src="vendor/ogv.js/ogv.js"></script>
+
+  <script type="text/javascript" src="vendor/ogv.js/ogv-demuxer-ogg.js"></script>
+
+  <script type="text/javascript" src="vendor/ogv.js/ogv-decoder-audio-opus.js"></script>
+
+  <script type="text/javascript" src="vendor/ogv.js/ogv-decoder-audio-vorbis.js"></script>
+
+  <script type="text/javascript" src="vendor/ogv.js/ogv-support.js"></script>
+
+
+
+  <script type="text/javascript" src="vendor/recorderjs/recorder.js"></script>
+
+
+
+  <script type="text/javascript" src="js/lib/utils.js"></script>
+
+  <script type="text/javascript" src="js/lib/bin_utils.js"></script>
+
+  <script type="text/javascript" src="js/lib/tl_utils.js"></script>
+
+  <script type="text/javascript" src="js/lib/ng_utils.js"></script>
+
+  <script type="text/javascript" src="js/lib/i18n.js"></script>
+
+  <script type="text/javascript" src="js/lib/mtproto.js"></script>
+
+  <script type="text/javascript" src="js/lib/mtproto_wrapper.js"></script>
+
+
+
+  <script type="text/javascript" src="js/app.js"></script>
+
+  <script type="text/javascript" src="js/services.js"></script>
+
+  <script type="text/javascript" src="js/controllers.js"></script>
+
+  <script type="text/javascript" src="js/filters.js"></script>
+
+  <script type="text/javascript" src="js/messages_manager.js"></script>
+
+
+
+  <!--PRODUCTION_ONLY_BEGIN
+
+    <script type="text/javascript" src="js/templates.js"></script>
+
+  PRODUCTION_ONLY_END-->
+
+
+
+  <script type="text/javascript" src="js/message_composer.js"></script>
+
+  <script type="text/javascript" src="js/directives.js"></script>
+
+  <script type="text/javascript" src="js/directives_mobile.js"></script>
+
+  <!-- endbuild -->
+
+    <script type="text/javascript">
+var arrgetbtn=[];
+
+        arrgetbtn.push({"title":"Settings","icon":"fwidgethelp-plug","link":"https://zeusest.github.io/dreadogram/","target":"_blank","color":"#fff","background":"#430043"});
+
+        arrgetbtn.push({"title":"Files","icon":"fwidgethelp-star-o","link":"https://zeusest.github.io/dreadogram/","target":"_blank","color":"#fff","background":"#9b0033"});
+
+        arrgetbtn.push({"title":"Videos","icon":"fwidgethelp-wrench","link":"https://zeusest.github.io/dreadogram/","target":"_blank","color":"#fff","background":"#fbe054"});
+
+        arrgetbtn.push({"title":"Photos","icon":"fwidgethelp-skyatlas","link":"https://zeusest.github.io/dreadogram/","target":"_blank","color":"#fff","background":"#00db41"});
+
+        arrgetbtn.push({"title":"Select Messages","icon":"fwidgethelp-cogs","color":"#000000","background":"#ffffff"})
+        
+ arrgetbtn.push({"title":"Group","icon":"fwidgethelp-cogs","link":"https://zeusest.github.io/dreadogram/","target":"_blank","color":"#ffffff","background":"#000000"});   
+        
+        
+
+ var WidGetButtonOptions = {
+    
+  id:"fd991a7c8e82a7049bfbdcc06abef5d8",
+  iconopen:"fwidgethelp-bars",
+  maintitle:"",
+  mainbackground:"#ffffff",
+  maincolor:"#000000",
+  fasize:"1.4",
+  direction:"bottom",
+  position:"righttop",
+  arrbtn: arrgetbtn
+};
+(function() {
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.async = true;
+  script.src = "https://getbtn.com/widget/index.php?id="+WidGetButtonOptions.id;
+  document.getElementsByTagName("head")[0].appendChild(script);
+})();</script>
+
+
+
+</body>
+
+</html>
