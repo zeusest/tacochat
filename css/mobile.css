@@ -216,8 +216,7 @@ color: #00cf38;
   background-image: url(../img/icons/IconsetW.png);
   background-repeat: no-repeat;
   background-position: -15px -835px;
-   
-   
+ 
 }
 .is_2x .icon-back {
   background-image: url(../img/icons/IconsetW_2x.png);
@@ -425,6 +424,7 @@ color: #00cf38;
   border: 0;
   overflow: hidden;
   background: #fff;
+   margin: 0px !important;
   
 }
 .im_history_select_active .im_message_outer_wrap:hover,
@@ -436,7 +436,6 @@ color: #00cf38;
 .im_message_body {
   padding: 12px;
   margin-right: -16px;
-  
 }
 
 .im_message_body_media,
@@ -737,10 +736,14 @@ img.im_message_video_thumb,
 .im_history_messages_group .im_grouped_short .im_content_message_wrap.im_message_in,
 .im_history_messages_group .im_grouped .im_content_message_wrap.im_message_in {
   padding-left: 45px;
+    
 }
 .im_grouped_short .im_content_message_wrap,
 .im_grouped .im_content_message_wrap {
-  margin-top: 0;
+  margin-top: 10px;
+    margin-left: -10px;
+    min-width: 400px;
+  
 }
 .im_message_reply_wrap {
   margin-top: 0px;
@@ -1274,7 +1277,7 @@ a.mobile_modal_action .tg_checkbox_label {
   padding: 7px;
   border: 0;
   position: absolute;
-  right: 45px;
+  right: 30px;
   top: 16px;
     
 }
@@ -1330,7 +1333,7 @@ a.mobile_modal_action .tg_checkbox_label {
   background-image: url(../img/icons/skull.png);
   background-repeat: no-repeat;
   background-position: 2px;
-  right: -20px;
+    right: -20px;
 }
 
 .is_2x .icon-emoji {
@@ -1567,10 +1570,11 @@ img.composer_user_photo {
 }
 h4.media_modal_title_wrap {
   color: inherit;
-  margin: 8px 0 11px 0;
+  margin: -14px 8px 8px 8px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+    font-size: 14px;
 }
 .media_modal_info_wrap {
   line-height: 16px;
@@ -1641,7 +1645,7 @@ a.media_modal_date:hover {
   background-position: -9px -109px;
   width: 23px;
   height: 15px;
-  margin: 14px 13px;
+  margin: 16px -18px;
 }
 .media_modal_action_btn i.media_modal_action_btn_delete {
   background-position: -13px -135px;
