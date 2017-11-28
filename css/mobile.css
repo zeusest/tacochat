@@ -382,7 +382,7 @@ color: #00cf38;
   margin-bottom: 30px;
 }
 .login_head_wrap {
-  height: 75px;
+  height: 55px;
   background: #330033;
 }
 .login_form_wrap {
@@ -696,8 +696,8 @@ img.im_message_video_thumb,
     
 }
 .im_history_panel_wrap {
-  display: none;
-  margin: 0 15px;
+  display: inline-block;
+  margin: 15px;
 }
 
 .im_send_panel_wrap {
@@ -742,16 +742,16 @@ img.im_message_video_thumb,
   margin-top: 0;
 }
 .im_message_reply_wrap {
-  margin-top: -50px;
+  margin-top: 0px;
 }
 .im_message_reply_author {
   font-weight: normal;
   font-size: 13px;
 }
 .im_message_reply_body {
-   margin-top: 7px;
-   margin-bottom: 11px;
-   font-size: 16px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-size: 14px;
    color: #000;
 }
 .im_message_fwd_header {
@@ -965,8 +965,8 @@ a.im_message_author_via .im_message_fwd_author {
 }
 .im_dialogs_col_wrap {
   padding-bottom: 0;
-    border-top: 2px solid #430043;
-    border-right: 3px solid #430043;
+  border-top: 2px solid #430043;
+  border-right: 3px solid #430043;
     
 }
 .im_dialogs_col_wrap,
@@ -1262,7 +1262,7 @@ a.mobile_modal_action .tg_checkbox_label {
 }
 .im_send_form {
   position: relative;
-  top: 0px;
+  top: -10px;
   right: 5px;
   max-width: none;
     
@@ -1273,7 +1273,7 @@ a.mobile_modal_action .tg_checkbox_label {
   padding: 7px;
   border: 0;
   position: absolute;
-  right: 21px;
+  right: 50px;
   top: 16px;
     
 }
@@ -1311,7 +1311,7 @@ a.mobile_modal_action .tg_checkbox_label {
   position: absolute;
   left: 9px;
   top: -12px;
-  width: 30px;
+  width: 24px;
   height: 82px;
   padding: 1px;
 }
@@ -1322,7 +1322,7 @@ a.mobile_modal_action .tg_checkbox_label {
 
 .icon-emoji {
   display: inline-block;
-  width: 42px;
+  width: 36px;
   height: 60px;
   opacity: ;
   margin: 1px;
@@ -1337,8 +1337,9 @@ a.mobile_modal_action .tg_checkbox_label {
 }
 
 .composer_emoji_insert_btn {
-  top: -25px;
-  right: -9px;
+  top: -9px;
+  right: 25px;
+   
 }
 
 .composer_emoji_insert_btn.composer_emoji_insert_btn_on .icon-emoji,
@@ -1352,25 +1353,33 @@ a.mobile_modal_action .tg_checkbox_label {
   margin-right: 9px;
   margin-left: 9px;
   margin-top: 9px;
+  width: 100%; 
+  overflow: hidden;
 }
+
 .im_send_field_wrap .form-control {
  
 }
 .composer_rich_textarea {
-  font-size: 16px;
+    font-size: 16px;
     margin-left: 40px;
     margin-right: 40px;
-  
+    overflow: hidden;
+    width:  70%;
    
 }
 .composer_rich_textarea:empty {
   background: #f1f1f1;
   border-color: #f1f1f1;
-     border-radius: 6px;
+  border-radius: 6px;
+  
+    
+    
 }
 .composer_rich_textarea:empty:before {
   color: #999;
   
+    
 }
 .composer_rich_textarea:active,
 .composer_rich_textarea:focus {
@@ -1379,44 +1388,44 @@ a.mobile_modal_action .tg_checkbox_label {
   background: #fff;
   border-color: #d9dbde;
   content: none;
-     border-radius: 6px;
+  border-radius: 6px;
 }
 
 .composer_emoji_tooltip {
- background: rgba(0, 200, 0, 0.65);  
+   background: rgba(0, 200, 0, 0.65);  
   z-index: 10000;
   border-top-right-radius: 24px;
   border-top-left-radius: 24px;
   margin-left: -255px;
-  margin-top: -437px;
+  margin-top: -338px;
   border: 3px solid #430043;
-
+  height: 100%;
    
 }
 .composer_emoji_tooltip_tab {
   line-height: 30px;
   font-size: 16px;
-padding-top: 2px;
-   padding-bottom: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 
 }
 .composer_emoji_tooltip .scroller_native_scrollable {
-  height: 360px;
-  margin-bottom: 6px;
-   
+  height: 235px;
+  margin-bottom: 3px;
+    
    
 }
 .composer_emoji_tooltip_tabs_wrap,
 
 .composer_emoji_tooltip_tab_emoji_content,
 .composer_emoji_tooltip_tab_stickers_content {
- height: 400px;
+ height: 100%;
  
 }
 .composer_emoji_tooltip_category {
-  padding-top: 4px;
+  padding-top: 18px;
  padding-right: 8px;
-  padding-left: 8px;
+  
      
 }
 .composer_emoji_tooltip_tab_stickers_content .composer_emoji_tooltip_categories .composer_sticker_btn {
@@ -1424,11 +1433,13 @@ padding-top: 2px;
   padding-bottom: 0;
   margin: 0;
    
+   
 }
 .composer_emoji_tooltip_tail {
    display: none;
    left: 268px;
 }
+
 .composer_dropdown_wrap {
   box-shadow: none;
 }
@@ -1531,11 +1542,9 @@ img.composer_user_photo {
   height: 46px;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1030;
-     
 }
 .media_modal_top_panel {
   color: #fff;
-   
 }
 .media_modal_top_actions .navbar-quick-media-back {
   color: inherit;
@@ -1585,7 +1594,7 @@ a.media_modal_date:hover {
 .video_modal_window,
 .document_modal_window {
   padding: 0;
-  background: rgba(0, 0, 0, 0.1);
+  background: #000;
 }
 .photo_modal_window .modal-content,
 .video_modal_window .modal-content,
@@ -1601,8 +1610,6 @@ a.media_modal_date:hover {
   display: block;
   width: 46px;
   height: 46px;
-   
-    
 }
 .tg_page_head .navbar-inverse .navbar-quick-nav > .navbar-quick-right > a.media_modal_action_btn,
 .tg_page_head .navbar-inverse .navbar-quick-nav > .navbar-quick-left > a.media_modal_action_btn {
@@ -1614,8 +1621,6 @@ a.media_modal_date:hover {
   background-image: url(../img/icons/PhotoIcons.png);
   background-repeat: no-repeat;
   background-position: 0 0;
-     
-    
 }
 .is_2x .media_modal_action_btn i {
   background-image: url(../img/icons/PhotoIcons_2x.png);
@@ -1635,39 +1640,28 @@ a.media_modal_date:hover {
   width: 23px;
   height: 15px;
   margin: 14px 13px;
-   
-    
 }
 .media_modal_action_btn i.media_modal_action_btn_delete {
   background-position: -13px -135px;
   width: 14px;
   height: 18px;
   margin: 13px 17px;
-   
-    
 }
-
-
-
 .stickerset_modal_stickers_list {
   padding: 10px;
 }
 .stickerset_modal_sticker_wrap,
 .stickerset_modal_sticker_wrap img,
 .stickerset_modal_sticker {
-  width: 40%;
- height: 100%;
+  width: 90px;
+  height: 90px;
 }
 .message_actions_modal_window {
   max-width: 220px;
   margin: 0 auto;
 }
 .message_actions_wrap {
-  padding: 20px 20px;
-  background: #222;
- 
-
-    
+  padding: 10px 20px;
 }
 .im_send_reply_wrap {
   margin-left: 38px;
@@ -1675,12 +1669,7 @@ a.media_modal_date:hover {
 }
 .composer_rich_textarea,
 .composer_textarea {
-  padding-right: 18px;
-    padding-left: 18px;
-    padding-top: 8px;
-    max-height: 75px;
-    border-radius: 50px;
-     margin-top: 8px;
+  padding-right: 28px;
 }
 .im_send_field_wrap_2ndbtn .composer_rich_textarea,
 .im_send_field_wrap_2ndbtn .composer_textarea {
@@ -1693,9 +1682,7 @@ a.media_modal_date:hover {
   top: 0;
 }
 .im_send_dropbox_wrap {
-  padding: 5px 10px;
-  font-size: 15px;
-  line-height: 22px;
+   display: none;
 }
 .im_send_field_panel {
   position: relative;
@@ -1715,5 +1702,4 @@ a.media_modal_date:hover {
   right: 6px;
   top: 4px;
 }
-
 

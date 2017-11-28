@@ -1,9 +1,9 @@
 {
-  "name": "Telegram",
-  "description": "Telegram Web App.\nMore info & source code here: https://github.com/zhukov/webogram",
-  "short_name": "Telegram",
+  "name": "tacochat",
+  "description": "tacochat",
+  "short_name": "tacochat",
   "display": "standalone",
-  "theme_color": "#497495",
+  "theme_color": "#430043",
   "gcm_sender_id": "122867383838",
   "start_url": "./?utm_source=web_app_manifest",
   "scope": "/",

@@ -484,11 +484,11 @@ html{
 }
 .composer_emoji_tooltip {
  background: rgba(0, 200, 0, 0.65);  
-  z-index: 10000;
+  z-index: 1;
   border-top-right-radius: 24px;
   border-top-left-radius: 24px;
   margin-left: -255px;
-  margin-top: -335px;
+  margin-top: -343px;
   border: 3px solid #430043;
   max-height: 333px;
   
@@ -514,7 +514,7 @@ padding-top: 2px;
  
 }
 .composer_emoji_tooltip_category {
-  padding-top: 6px;
+  padding-top: 18px;
  padding-right: 8px;
   padding-left: 8px;
  padding-bottom: 6px;
@@ -604,7 +604,7 @@ img.composer_user_photo {
     background: #222;
 }
 .footer_empty {
-  height: 23px !important;
+  height: 3px !important;
 }
 .footer_brand {
   color: #430043;
@@ -671,7 +671,7 @@ a.footer_link.active:active {
   float: right;
   width: 100%;
     box-shadow: 1px 2px 8px 0px #000;
-    border-bottom-left-radius: 30px;
+ 
    
 }
 .im_history_scrollable_wrap {
@@ -1137,11 +1137,10 @@ a.im_panel_peer_photo .peer_initials {
 .im_send_field_wrap {
   margin-bottom: 5px;
   padding-bottom: 2px;
-    
   overflow-x: hidden;
   border-radius: 6px;
   background: white;
-  box-shadow: 1px 2px 3px 0px #999;
+ 
   
 }
 .composer_rich_textarea,
@@ -1543,7 +1542,7 @@ a.im_panel_peer_photo .peer_initials {
 }
 .im_content_message_wrap {
   margin: 22px 10px 22px 10px;
-    font-size: 18px;
+  font-size: 18px;
 }
 .im_message_views_wrap {
   width: 0;
@@ -1656,7 +1655,7 @@ div.im_dialog_photo .peer_initials {
 }
 .im_dialog_message {
   margin-top: 5px;
-    font-size: 9px;
+  font-size: 9px;
 }
 .im_dialog_peer {
   margin-top: 1px;
@@ -1671,7 +1670,6 @@ div.im_dialog_photo .peer_initials {
 }
 
 .im_dialog_date {
-    
     font-size: 8px;    
     
 }
@@ -1940,7 +1938,7 @@ text-align: left;
 
 a.im_message_from_photo {
     
-    display: none;
+    display: inline-block;
 }
 
   .icon-emoji {
@@ -1954,8 +1952,8 @@ a.im_message_from_photo {
     background-image: url(../img/icons/skull.png);
     background-repeat: no-repeat;
     background-position: 0px;
-     margin-top: 25px;
-     margin-left: -25px;
+     margin-top: 9px;
+     margin-left: 0px;
   }
   .is_2x .icon-emoji {
     background-image: url(../img/icons/skull.png);
