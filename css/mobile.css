@@ -379,7 +379,7 @@ color: #00cf38;
   display: none;
 }
 .login_page {
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 .login_head_wrap {
@@ -426,8 +426,8 @@ color: #00cf38;
   border: 0;
   overflow: hidden;
   background: #fff;
-   margin: 0px !important;
-  
+ 
+    
 }
 .im_history_select_active .im_message_outer_wrap:hover,
 .im_message_selected {
@@ -437,7 +437,7 @@ color: #00cf38;
 
 .im_message_body {
   padding: 12px;
-  margin-right: -16px;
+  
 }
 
 .im_message_body_media,
@@ -709,7 +709,7 @@ img.im_message_video_thumb,
   border-bottom-left-radius: 25px;
   background-color: #fff;
   box-shadow: 1px 3px 8px 1px #000;
- 
+ margin-bottom: 0px;
 }
 
 .im_message_wrap {
