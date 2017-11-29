@@ -196,7 +196,7 @@ color: #00cf38;
   display: block;
   float: none;
   margin: 0;
-   
+  
 }
 .tg_page_head .navbar-quick-nav li {
   float: left;
@@ -216,6 +216,7 @@ color: #00cf38;
   background-image: url(../img/icons/IconsetW.png);
   background-repeat: no-repeat;
   background-position: -15px -835px;
+   
  
 }
 .is_2x .icon-back {
@@ -236,6 +237,7 @@ color: #00cf38;
 }
 .tg_page_head .navbar {
   min-height: 46px;
+    
    
 }
 .tg_page_head .navbar-inverse .navbar-quick-nav > li > a {
@@ -471,6 +473,7 @@ color: #00cf38;
 
 .im_service_message {
   font-size: 13px;
+    
 }
 .audio_player_button {
   margin-right: 8px;
@@ -635,7 +638,7 @@ color: #00cf38;
     font-size: 18px;
     padding: 45px;
     border: 4px solid #222;
-    max-width: 240px;
+    max-width: 230px;
     background: #f3d34d;
     
 border-top-left-radius: 150px;
@@ -701,24 +704,24 @@ img.im_message_video_thumb,
 }
 
 .im_send_panel_wrap {
-  height:100px;
+  height:95px;
   border: 2px solid #430043;
   border-bottom-left-radius: 25px;
   background-color: #fff;
-  box-shadow: 1px 3px 12px 0px #000;
+  box-shadow: 1px 3px 8px 1px #000;
  
 }
 
 .im_message_wrap {
   padding: 10px 10px;
-    margin: 0px;
+   margin: 0px;
     
 }
 .im_content_message_wrap {
   font-size: 16px;
   float: left;
   position: relative;
-  margin: 40px 0px 40px 0px;
+  margin: 30px 0px 30px 0px;
   width: 100%;
  
     
@@ -747,7 +750,8 @@ img.im_message_video_thumb,
   
 }
 .im_message_reply_wrap {
-  margin-top: 0px;
+  margin-top: -44px;
+  
 }
 .im_message_reply_author {
   font-weight: normal;
@@ -789,11 +793,11 @@ img.im_message_video_thumb,
 }
 .im_message_date {
   top: 21px;
-  left:2px;
   position: absolute;
   font-size: 9px;
   z-index: 1;
   color: #666;
+   
 }
 .im_message_edited {
   position: absolute;
@@ -837,8 +841,8 @@ img.im_message_video_thumb,
 
 .im_message_from_photo,
 .im_message_fwd_photo {
-  width: 125px;
-  height: 125px;
+  width: 120px;
+  height: 120px;
   border-radius: 1px;
 }
 a.im_message_from_photo {
@@ -1334,7 +1338,8 @@ a.mobile_modal_action .tg_checkbox_label {
   background-image: url(../img/icons/skull.png);
   background-repeat: no-repeat;
   background-position: 2px;
-    right: -20px;
+  right: -25px;
+    top: -3px;
 }
 
 .is_2x .icon-emoji {
@@ -1371,6 +1376,7 @@ a.mobile_modal_action .tg_checkbox_label {
     margin-left: 40px;
     margin-right: 40px;
     overflow: hidden;
+    overflow-y: scroll;
     width:  70%;
    
 }
