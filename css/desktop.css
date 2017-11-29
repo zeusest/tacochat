@@ -604,7 +604,7 @@ img.composer_user_photo {
     background: #222;
 }
 .footer_empty {
-  height: 3px !important;
+  height: 0px !important;
 }
 .footer_brand {
   color: #430043;
