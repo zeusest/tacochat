@@ -21,7 +21,7 @@ Config.App = {
   id: 195605,
   hash: '604e9027b6005dc3f1b0cd6367d6f175',
   version: '0.6.0',
-  domains: ['web.telegram.org', 'tacochat.com']
+  domains: ['tacochat.com']
 }
 
 Config.Modes = {
