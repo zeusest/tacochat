@@ -18,10 +18,10 @@ Config = window.Config || {}
 */
 
 Config.App = {
-  id: 195605,
-  hash: '604e9027b6005dc3f1b0cd6367d6f175',
+  id: 2496,
+  hash: '8da85b0d5bfe62527e5b244c209159c3',
   version: '0.6.0',
-  domains: ['tacochat.com']
+  domains: ['web.telegram.org', 'zhukov.github.io']
 }
 
 Config.Modes = {
