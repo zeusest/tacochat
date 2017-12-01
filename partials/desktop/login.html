@@ -131,17 +131,6 @@
 
     </div>
 
-    <div ng-switch="about.shown">
-      <div ng-switch-when="true" class="login_footer_about_wrap" my-scroll-to-on="$init">
-        <h3><span my-i18n="login_about_title"></span><a ng-click="about.shown = false" class="login_footer_about_hide" my-i18n="login_about_hide"></a></h3>
-        <p my-i18n="login_about_desc1_md"></p>
-        <p my-i18n="login_about_desc2_md"></p>
-        <p my-i18n="login_about_desc3_md">
-          <my-i18n-param name="source-link">
-            <a href="https://github.com/zhukov/webogram" target="_blank">{0}</a>
-          </my-i18n-param>
-        </p>
-      </div>
       <div ng-switch-default class="login_footer_wrap">
         <p my-i18n="login_about_intro"></p>
         <a class="logo_footer_learn_more_link" href="" ng-click="about.shown = true" my-i18n="login_about_learn"></a>
